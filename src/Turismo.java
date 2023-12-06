@@ -3,7 +3,7 @@ public class Turismo {
 		
 	final int dolar=950;
 	final int real=200;	
-	public String dondeViajar(int ahorro) {
+	public void dondeViajar(int ahorro) {
 		int ahorroDolares=ahorro/dolar;
 		int ahorroReales=ahorro/real;
 		if(ahorroDolares==600 || ahorroReales==800 ) {
@@ -17,6 +17,6 @@ public class Turismo {
 		}else {
 			System.out.println("Busca opciones mas economicas");
 		}
-		return"";
+		
 	}
 }

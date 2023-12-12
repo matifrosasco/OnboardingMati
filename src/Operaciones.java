@@ -11,11 +11,7 @@ public class Operaciones {
 			System.out.println("No se puede dividir entre 0");
 			return;
 		}
-		suma=num1+num2;
-		resta=num1-num2;
-		division=num1/num2;
-		multiplicacion=num1*num2;
-		total=suma+resta+division+multiplicacion;
+		total=(num1+num2)+(num1-num2)+(num1/num2)+(num1*num2);
 	}
 	public void resultado(){
 		System.out.println("El resultado es: " + total);	

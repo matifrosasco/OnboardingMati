@@ -6,6 +6,7 @@ public class Ejercicios {
 		Vocales vocal=new Vocales();
 		Operaciones op1=new Operaciones();
 		Turismo viaje=new Turismo();
+		
 		Scanner e=new Scanner(System.in);
 		JOptionPane.showMessageDialog(null, "Ejercicio 1, introduce una vocal en la consola");
 		System.out.println("Introduce una vocal");
